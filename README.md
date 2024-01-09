@@ -9,10 +9,10 @@
 > Official reference: https://ionicframework.com/docs/cli/commands/capacitor-build
 
 ## generate www folder
-> ionic build
+### ionic build
 
 ## add android folder
-> npx cap add android
-> npx cap sync android
-> npx cap copy android
-> npx cap open android
+### npx cap add android
+### npx cap sync android
+### npx cap copy android
+### npx cap open android
