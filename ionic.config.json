@@ -1,0 +1,7 @@
+{
+  "name": "mgdlab-hello-module-capacitor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
