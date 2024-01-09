@@ -1,2 +1,18 @@
-# hello-ionic-capacitor
-This is a hello world app that use ionic capacitor engine
+## Build
+
+> Official reference: https://ionicframework.com/docs/cli/commands/capacitor-build
+
+```shell 
+ionic cap build android --prod
+```
+
+```shell
+cd android
+gradlew bundleRelease
+```
+
+## Deploy on device
+
+```shell
+ionic capacitor run android -l
+```
