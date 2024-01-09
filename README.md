@@ -8,17 +8,11 @@
 
 > Official reference: https://ionicframework.com/docs/cli/commands/capacitor-build
 
-```shell 
-ionic cap build android --prod
-```
+## generate www folder
+> ionic build
 
-```shell
-cd android
-gradlew bundleRelease
-```
-
-## Deploy on device
-
-```shell
-ionic capacitor run android -l
-```
+## add android folder
+> npx cap add android
+> npx cap sync android
+> npx cap copy android
+> npx cap open android
